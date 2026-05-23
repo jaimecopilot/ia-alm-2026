@@ -1,0 +1,22 @@
+# Módulo 1: Fundamentos de IA y Prompt Engineering
+
+## Estructura
+- **Teoría**: 5 puntos (T1.1 a T1.5) - 50 minutos
+- **Práctica**: 6 ejercicios (P1.1 a P1.6) - 90 minutos
+- **Total**: 2,5 horas
+
+## Cómo usar este módulo
+
+### Teoría
+Cada archivo en `teoria/` contiene el contenido que debes explicar a los alumnos. Está numerado (1, 2, 3...) para que puedas seguirlo secuencialmente. No es un guion literal: adáptalo a tu estilo.
+
+### Práctica
+Cada archivo en `meta-prompts/` contiene un prompt que debes pegar en ChatGPT, Claude o Gemini. La IA generará el ejercicio práctico completo. Revisa el ejercicio generado antes de entregarlo a los alumnos.
+
+### Flujo de trabajo
+1. Explica la teoría (teoria/t1.1.md, t1.2.md...).
+2. Pega el meta-prompt (meta-prompts/p1.1.md) en una IA.
+3. Revisa el ejercicio generado.
+4. Entrega el ejercicio a los alumnos.
+5. Los alumnos ejecutan los prompts del ejercicio en las IAs que quieran.
+6. Puesta en común y reflexión.
