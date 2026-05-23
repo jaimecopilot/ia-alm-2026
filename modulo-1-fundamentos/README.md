@@ -2,7 +2,8 @@
 
 ## Información general
 
--
+- **Teoría**: 5 puntos
+- **Práctica**: 6 ejercicios
 
 ## Objetivos de aprendizaje
 
@@ -39,17 +40,17 @@ Revisa los archivos de teoría para familiarizarte con los conceptos que vas a e
 
 ### Paso 2: Explicar la teoría
 
-Cada archivo en `teoria/` contiene el contenido numerado (1, 2, 3...) para que puedas seguirlo secuencialmente. No es un guion literal: adáptalo a tu estilo y experiencia personal. Cada punto está diseñado para ocupar aproximadamente 10 minutos de explicación.
+Cada archivo en `teoria/` contiene el contenido numerado (1, 2, 3...) para que puedas seguirlo secuencialmente. **No es un guion literal**: adáptalo a tu estilo y experiencia personal.
 
 ### Paso 3: Generar los ejercicios
 
 Para cada ejercicio práctico:
 
 1. Abre ChatGPT, Claude o Gemini
-2. Copia todo el contenido del archivo `meta-prompts/p1.X.md`
+2. Copia **todo** el contenido del archivo `meta-prompts/p1.X.md`
 3. Pégalo en la IA
 4. La IA generará un ejercicio práctico completo listo para usar
-5. Revisa el ejercicio generado antes de entregarlo a los alumnos
+5. **Revisa el ejercicio generado** antes de entregarlo a los alumnos
 6. Ajusta si es necesario
 
 ### Paso 4: Entregar a los alumnos
@@ -62,35 +63,35 @@ Después de cada ejercicio, dedica unos minutos a que los alumnos compartan sus 
 
 ## Resumen de contenidos
 
-### Teoría (50 min)
+### Teoría
 
-| # | Tema | Duración |
-|---|------|----------|
-| T1.1 | Conceptos básicos de IA | 10 min |
-| T1.2 | Machine Learning y LLM | 10 min |
-| T1.3 | Herramientas de IA generativa | 10 min |
-| T1.4 | Prompt Engineering | 10 min |
-| T1.5 | Limitaciones y riesgos | 10 min |
+| # | Tema |
+|---|------|
+| T1.1 | Conceptos básicos de IA |
+| T1.2 | Machine Learning y LLM |
+| T1.3 | Herramientas de IA generativa |
+| T1.4 | Prompt Engineering |
+| T1.5 | Limitaciones y riesgos |
 
-### Práctica (90 min)
+### Práctica
 
-| # | Tema | Duración |
-|---|------|----------|
-| P1.1 | Primeros prompts en IAs | 15 min |
-| P1.2 | Comparación estilos de prompt | 15 min |
-| P1.3 | Análisis de alucinación | 15 min |
-| P1.4 | Role-playing | 15 min |
-| P1.5 | Control de parámetros | 15 min |
-| P1.6 | Detección de sesgos | 15 min |
+| # | Tema |
+|---|------|
+| P1.1 | Primeros prompts en IAs |
+| P1.2 | Comparación estilos de prompt |
+| P1.3 | Análisis de alucinación |
+| P1.4 | Role-playing |
+| P1.5 | Control de parámetros |
+| P1.6 | Detección de sesgos |
 
 ## Herramientas utilizadas en las prácticas
 
 Los alumnos pueden usar cualquiera de estas IAs generativas:
 
-- [ChatGPT](https://chat.openai.com)
-- [Claude](https://claude.ai)
-- [Gemini](https://gemini.google.com)
-- [GitHub Copilot Chat](https://github.com/features/copilot) (en VS Code)
+- **ChatGPT** (chat.openai.com)
+- **Claude** (claude.ai)
+- **Gemini** (gemini.google.com)
+- **GitHub Copilot Chat** (en VS Code)
 
 ## Licencia
 
