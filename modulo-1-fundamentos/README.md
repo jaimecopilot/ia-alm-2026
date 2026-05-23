@@ -2,9 +2,7 @@
 
 ## Información general
 
-- **Duración total:** 2,5 horas
-- **Teoría:** 5 puntos (50 minutos)
-- **Práctica:** 6 ejercicios (90 minutos)
+-
 
 ## Objetivos de aprendizaje
 
