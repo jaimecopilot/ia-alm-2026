@@ -1,22 +1,92 @@
 # Módulo 1: Fundamentos de IA y Prompt Engineering
 
-## Estructura
-- **Teoría**: 5 puntos (T1.1 a T1.5) - 50 minutos
-- **Práctica**: 6 ejercicios (P1.1 a P1.6) - 90 minutos
-- **Total**: 2,5 horas
+## 📊 Información general
+- **Duración total**: 2,5 horas
+- **Teoría**: 5 puntos (50 minutos)
+- **Práctica**: 6 ejercicios (90 minutos)
 
-## Cómo usar este módulo
+## 🎯 Objetivos de aprendizaje
+- Comprender qué es la IA, el aprendizaje automático y los grandes modelos de lenguaje (LLM)
+- Conocer el funcionamiento básico de ChatGPT, GitHub Copilot, Claude, Gemini y herramientas similares
+- Aplicar principios de prompt engineering para obtener resultados útiles
+- Identificar limitaciones: alucinaciones, sesgos, riesgos de seguridad
 
-### Teoría
-Cada archivo en `teoria/` contiene el contenido que debes explicar a los alumnos. Está numerado (1, 2, 3...) para que puedas seguirlo secuencialmente. No es un guion literal: adáptalo a tu estilo.
+## 📁 Estructura del módulo
 
-### Práctica
-Cada archivo en `meta-prompts/` contiene un prompt que debes pegar en ChatGPT, Claude o Gemini. La IA generará el ejercicio práctico completo. Revisa el ejercicio generado antes de entregarlo a los alumnos.
+```
+modulo-1-fundamentos/
+├── README.md                          # Este archivo
+├── teoria/
+│   ├── t1.1-conceptos-basicos-ia.md   # 10 min
+│   ├── t1.2-machine-learning-llm.md   # 10 min
+│   ├── t1.3-herramientas-ia.md        # 10 min
+│   ├── t1.4-prompt-engineering.md     # 10 min
+│   └── t1.5-limitaciones-riesgos.md   # 10 min
+└── meta-prompts/
+    ├── p1.1-primeros-prompts.md       # Genera ejercicio de 15 min
+    ├── p1.2-comparacion-estilos.md    # Genera ejercicio de 15 min
+    ├── p1.3-analisis-alucinacion.md   # Genera ejercicio de 15 min
+    ├── p1.4-role-playing.md           # Genera ejercicio de 15 min
+    ├── p1.5-parametros.md             # Genera ejercicio de 15 min
+    └── p1.6-deteccion-sesgos.md       # Genera ejercicio de 15 min
+```
 
-### Flujo de trabajo
-1. Explica la teoría (teoria/t1.1.md, t1.2.md...).
-2. Pega el meta-prompt (meta-prompts/p1.1.md) en una IA.
-3. Revisa el ejercicio generado.
-4. Entrega el ejercicio a los alumnos.
-5. Los alumnos ejecutan los prompts del ejercicio en las IAs que quieran.
-6. Puesta en común y reflexión.
+## 🚀 Cómo usar este módulo
+
+### Paso 1: Preparación
+Revisa los archivos de teoría para familiarizarte con los conceptos que vas a explicar.
+
+### Paso 2: Explicar la teoría
+Cada archivo en `teoria/` contiene el contenido numerado (1, 2, 3...) para que puedas seguirlo secuencialmente. **No es un guion literal**: adáptalo a tu estilo y experiencia personal. Cada punto está diseñado para ocupar aproximadamente 10 minutos de explicación.
+
+### Paso 3: Generar los ejercicios
+Para cada ejercicio práctico:
+
+1. Abre ChatGPT, Claude o Gemini
+2. Copia **todo** el contenido del archivo `meta-prompts/p1.X.md`
+3. Pégalo en la IA
+4. La IA generará un ejercicio práctico completo listo para usar
+5. **Revisa el ejercicio generado** antes de entregarlo a los alumnos
+6. Ajusta si es necesario
+
+### Paso 4: Entregar a los alumnos
+Entrega el ejercicio generado a los alumnos. Ellos ejecutarán los prompts del ejercicio en las IAs que prefieran (ChatGPT, Claude, Gemini, Copilot Chat).
+
+### Paso 5: Puesta en común
+Después de cada ejercicio, dedica unos minutos a que los alumnos compartan sus resultados y reflexiones.
+
+## 📋 Resumen de contenidos
+
+### Teoría (50 min)
+
+| # | Tema | Archivo | Duración |
+|---|------|---------|----------|
+| T1.1 | Conceptos básicos de IA | `teoria/t1.1-conceptos-basicos-ia.md` | 10 min |
+| T1.2 | Machine Learning y LLM | `teoria/t1.2-machine-learning-llm.md` | 10 min |
+| T1.3 | Herramientas de IA generativa | `teoria/t1.3-herramientas-ia.md` | 10 min |
+| T1.4 | Prompt Engineering | `teoria/t1.4-prompt-engineering.md` | 10 min |
+| T1.5 | Limitaciones y riesgos | `teoria/t1.5-limitaciones-riesgos.md` | 10 min |
+
+### Práctica (90 min)
+
+| # | Tema | Meta-prompt | Duración |
+|---|------|-------------|----------|
+| P1.1 | Primeros prompts en IAs | `meta-prompts/p1.1-primeros-prompts.md` | 15 min |
+| P1.2 | Comparación estilos de prompt | `meta-prompts/p1.2-comparacion-estilos.md` | 15 min |
+| P1.3 | Análisis de alucinación | `meta-prompts/p1.3-analisis-alucinacion.md` | 15 min |
+| P1.4 | Role-playing | `meta-prompts/p1.4-role-playing.md` | 15 min |
+| P1.5 | Control de parámetros | `meta-prompts/p1.5-parametros.md` | 15 min |
+| P1.6 | Detección de sesgos | `meta-prompts/p1.6-deteccion-sesgos.md` | 15 min |
+
+## 🛠️ Herramientas utilizadas en las prácticas
+Los alumnos pueden usar cualquiera de estas IAs generativas:
+- **ChatGPT** (chat.openai.com)
+- **Claude** (claude.ai)
+- **Gemini** (gemini.google.com)
+- **GitHub Copilot Chat** (en VS Code)
+
+## ⚠️ Nota importante sobre el formato
+Los meta-prompts usan bloques de código con 4 comillas invertidas (````) para que los bloques de código anidados se rendericen correctamente en GitHub. Si copias un meta-prompt y lo pegas en una IA, no necesitas modificar nada: la IA entenderá el contenido independientemente de las comillas.
+
+## 📝 Licencia
+Este material es parte del curso "IA Aplicada al Ciclo de Vida del Software".
