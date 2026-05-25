@@ -17,7 +17,7 @@ Entender el bucle de auto-reparación en el ALM generativo
 Aplicar validación de seguridad en el código generado por IA
 
 ## Estructura del módulo
-
+```
 text
 modulo-5-testing-calidad/
 ├── README.md
@@ -32,7 +32,7 @@ modulo-5-testing-calidad/
     ├── p5.4-deteccion-vulnerabilidades.md
     ├── p5.5-tests-integracion-api.md
     └── p5.6-ciclo-completo-testing.md
-
+```
 ## Cómo usar este módulo
 
 Paso 1: Preparación  
