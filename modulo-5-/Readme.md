@@ -18,7 +18,6 @@ Aplicar validación de seguridad en el código generado por IA
 
 ## Estructura del módulo
 ```
-text
 modulo-5-testing-calidad/
 ├── README.md
 ├── teoria/
